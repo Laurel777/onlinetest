@@ -1,0 +1,29 @@
+<h1>Welcome to General Knowledge Quiz main page</h1>
+<br>
+<div>
+<form  [formGroup]="registerForm" (ngSubmit)="proceedRegister()"                      >
+Person name :
+    <input type="text" formControlName="id" />
+    <br>
+    <br>
+    User name :
+    <input type="text" formControlName="uname" />
+    <br>
+
+    <br>
+
+    Password :
+    <input type="text" formControlName="password" />
+    <br>
+    <br>
+    <input type="submit" value="Click me" class="btn btn-success" />
+
+    <br>
+    <h6>{{msg}}</h6>
+
+</form>
+
+
+
+
+</div>

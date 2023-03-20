@@ -1,0 +1,134 @@
+<h1>Your General Knowledge Quiz starts now</h1>>
+<br>
+<h3>Please type and then lastly click on submit after u have done.</h3> 
+<br/>
+<form [formGroup]="Testform" (ngSubmit)="proceedTest()">
+Q1.) Who is the prime minister of India??
+<br/>
+<input type="radio" value="Narendra Modi" formControlName="ans1"/>Narendra Modi
+<br/>
+<input   type="radio"  value="Manmohan Singh" formControlName="ans1" /> Manmohan Singh
+<br/>
+<input   type="radio"   value="Rajiv Gandhi"  formControlName="ans1" />Rajiv Gandhi
+<br/>
+<input   type="radio"  value="Indira Gandhi"  formControlName="ans1"/> Indira Gandhi
+<br/>
+<br/>
+Q2.) What is the national animal of India??
+<br/>
+<input type="radio"  value="tiger" formControlName="ans2"/>tiger
+<br/>
+<input   type="radio"  value="lion" formControlName="ans2" /> lion
+<br/>
+<input   type="radio"   value="fox"  formControlName="ans2" />fox
+<br/>
+<input   type="radio"  value="cheetah"  formControlName="ans2"/> cheetah
+<br/>
+<br/>
+Q3.) What is the national bird of India??
+<br/>
+<input type="radio" value="peacock" formControlName="ans3"/>peacock
+<br/>
+<input type="radio" value="pigeon" formControlName="ans3"/>pigeon
+<br/>
+<input type="radio" value="ostrich" formControlName="ans3"/>ostrich
+<br/>
+<input type="radio" value="parrot" formControlName="ans3"/>parrot
+<br/>
+<br>
+
+Q4.) What is the national game of India??
+<br/>
+<input   type="radio"  value="cricket" formControlName="ans4" /> cricket 
+<br/>
+<input   type="radio"  value="football" formControlName="ans4" /> football
+<br/>
+<input   type="radio"   value="hockey"  formControlName="ans4" />hockey
+<br/>
+<input   type="radio"  value="badminton"  formControlName="ans4"/> badminton
+<br/>
+<br> 
+
+Q5.) A running man crosses a bridge of lenght 500 meters in 4 minutes. At what speed he is running ?
+<br/>
+<input   type="radio"  value="8.5 km/s" formControlName="ans5" />8.5 km/s
+<br/>
+<input   type="radio"  value="7.5 km/s" formControlName="ans5" /> 7.5 km/s
+<br/>
+<input   type="radio"   value="9.5 km/s"  formControlName="ans5" />9.5 km/s
+<br/>
+<input   type="radio"  value="6.5 km/s"  formControlName="ans5"/> 6.5 km/s
+<br/>
+<br> 
+
+Q6.) If Suresh borrows Rs.36000 from Mahesh at rate of interest 6% S.I, 
+at the end of four years how much interest Suresh has to pay along with principal amount?
+<br/>
+<input   type="radio"  value="12560" formControlName="ans6" /> 12560 
+<br/>
+<input   type="radio"  value="13500" formControlName="ans6" /> 13500
+<br/>
+<input   type="radio"   value="12960"  formControlName="ans6" />12960
+<br/>
+<input   type="radio"  value="14500"  formControlName="ans6"/> 14500
+<br/>
+<br> 
+
+Q7.) A train moving at speed of 80 km/hr croosses a pole in 7 seconds.Find 
+the length of the train.
+<br/>
+<input   type="radio"  value="150 m" formControlName="ans7" /> 150 m 
+<br/>
+<input   type="radio"  value="165 m" formControlName="ans7" /> 165 m
+<br/>
+<input   type="radio"   value="170 m"  formControlName="ans7" />170 m
+<br/>
+<input   type="radio"  value="175 m"  formControlName="ans7"/> 175 m
+<br/>
+<br> 
+
+Q8.) What is the HCF of 1095 and 1168?
+<br/>
+<input   type="radio"  value="37" formControlName="ans8" /> 37 
+<br/>
+<input   type="radio"  value="73" formControlName="ans8" /> 73
+<br/>
+<input   type="radio"   value="43"  formControlName="ans8" />43
+<br/>
+<input   type="radio"  value="83"  formControlName="ans8"/> 83
+<br/>
+<br> 
+
+Q9.) What is the area of a triangle with base 5 meters and height 10 meters?
+<br/>
+<input   type="radio"  value="20 sq mts" formControlName="ans9" /> 20 sq mts 
+<br/>
+<input   type="radio"  value="25 sq mts" formControlName="ans9" /> 25 sq mts
+<br/>
+<input   type="radio"   value="35 sq mts"  formControlName="ans9" />35 sq mts
+<br/>
+<input   type="radio"  value="40 sq mts"  formControlName="ans9"/> 40 sq mts
+<br/>
+<br> 
+
+Q10.) A:B:C is in the ratio of 3:2:5. How much money will C get out of Rs 1260?
+<br/>
+<input   type="radio"  value="252" formControlName="ans10" /> 252 
+<br/>
+<input   type="radio"  value="125" formControlName="ans10" /> 125
+<br/>
+<input   type="radio"   value="503"  formControlName="ans10" />503
+<br/>
+<input   type="radio"  value="None of these"  formControlName="ans10"/> None of these
+<br/>
+<br> 
+    <br>
+    <input type="submit" value="Click me" class="btn btn-success" />
+<br/>
+<br/>  
+<h6>{{msg2}}</h6>
+<br/>
+<br/>
+<h6>{{finalmarks}}</h6>
+
+</form>

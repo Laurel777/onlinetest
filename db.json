@@ -1,0 +1,57 @@
+{
+  "userinfo": [
+    {
+      "id": "laurel",
+      "uname": "laurel",
+      "password": "pereira@7"
+    },
+    {
+      "id": "kim",
+      "uname": "kimstar",
+      "password": "kim@5g"
+    },
+    {
+      "id": "dad",
+      "uname": "agnel",
+      "password": "agnelp45"
+    },
+    {
+      "id": "idk",
+      "uname": "laurel",
+      "password": "laurel1234"
+    },
+    {
+      "id": "lau",
+      "uname": "laurel",
+      "password": "Laurel@123"
+    },
+    {
+      "id": "qwe",
+      "uname": 123,
+      "password": 123
+    },
+    {
+      "id": "purna",
+      "uname": "purna",
+      "password": "purna@123"
+    },
+    {
+      "id": "MockTest",
+      "ansa": "Narendra Modi",
+      "ansb": "tiger",
+      "ansc": "peacock",
+      "ansd": "hockey",
+      "anse": "7.5 km/s",
+      "ansf": "12960",
+      "ansg": "175 m",
+      "ansh": "73",
+      "ansi": "25 sq mts",
+      "ansj": "None of these"
+    },
+    {
+      "id": "l",
+      "uname": "o",
+      "password": "p"
+    }
+  ]
+}
